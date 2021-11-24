@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav {
+    display: inline-block;
+    width: 100%;
+    background-color:#777777;
+    
+  }
+nav h3{
+    font-size: 20px;
+    font-family: cursive;
+    float: left;
+    padding: 10px 0px 10px 30px;
+    color:#ffffff;
+
+}
+nav ul{
+    float: right;
+    margin: 5px 20px 5px 0px;
+}
+  nav ul li {
+    
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 20px;
+    text-align: center;
+    background-color: rgb(189, 185, 185);
+    color: #464141;
+    margin: 0;
+    font-family: cursive;
+  }
+  nav li:hover {
+    background-color: #777777;
+    color: #ffffff;
+  }
+nav ul a li{
+    text-decoration: none;
+    color:#464141;
+}
+  
+main{
+   background-image: url("back.jpg"); 
+    
+}
+main h1{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:rgb(7, 7, 6);
+}
+main p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main img{
+    margin: 20px;
+}
+main div{
+    align-items: center;
+}
+main div button{
+        background-color:#777777;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        align-items: center;
+        align-self:center;
+      }
+}
+main div button a{
+    color:aliceblue;
+    text-decoration: none;
+}
+
+section{
+    
+    background-color: }
+
+Form {
+    background-color:rgb(135, 188, 235);
+    margin: 100px auto;
+    padding: 40px;
+    width: 50%;
+    min-width: 300px;
+    box-shadow: 0px 2px 10px #aaa;
+}
+
+.tab {
+    display:none;
+}
+
+p{
+    font-size: 20px;
+}
+input,textarea {
+    padding: 15px;
+    margin: 5px;
+    height :10px;
+    font-size: 22px;
+    font-family: Raleway;
+    border-bottom: 1px solid #aaa;
+    transition: 0.5s ease-in-out;
+   
+    border: 2px solid #fff;
+}
+
+button {
+    padding: 10px 20px;
+    width: auto;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #fff;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+    -moz-transition: 0.5 ease-in-out;
+    float: none;
+    text-align: center;
+    margin-top: 60px;
+}
